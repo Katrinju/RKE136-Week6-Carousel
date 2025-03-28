@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1f69edb07a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Movie Carousel</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="closeBtn">&times</span>
+                <img alt="" class="movie-poster-modal">
+                <h1>Gladiator II (2024)</h1>
+            </div>
+        </div>
+
+        <div class="movie-card">
+            <h2 class="movie-title">Gladiator II (2024)</h2>
+            <p class="movie-genres">
+                <span class="movie-rating">PG-13</span>  
+                1/13/2024 (EE)
+                Action, Adventure, Drama 
+                <span class="movie-duration">2h 28m</span>
+            </p>
+            <div id="moviePoster" class="movie-poster-container">
+                <img class="movie-poster" src="images/pic1.jpg" alt="Gladiator II Poster">
+            </div>
+
+            <div class="movie-info-container">
+                <p class="movie-info-quote">Prepare to be entertained.</p>
+
+                <h2 class="movie-info-overview-title">Overview</h2>
+                <p class="movie-info-overview">Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist.</p>
+
+                <div class="movie-info-actions">
+                    <ul>
+                        <li><a href="#" class="add-fav"><i class="fa-solid fa-heart"></i></a></li>
+                        <li><a href="#" class="add-bookmark"><i class="fa-solid fa-bookmark"></i></a></li>
+                        <li><a href="#" class="rate-movie"><i class="fa-solid fa-star-half-alt"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel">
+            <div class="carousel__item carousel__item--visible">
+                <img src="images/pic2.jpg" alt="1">
+            </div>
+
+            <div class="carousel__item">
+                <img src="images/pic3.jpg" alt="2">
+            </div>
+
+            <div class="carousel__item">
+                <img src="images/pic4.jpg" alt="3">
+            </div>
+
+            <div class="carousel__actions">
+                <button id="carousel__button--prev" aria-label="Previous Slide"><</button>
+                <button id="carousel__button--next" aria-label="Next Slide">></button>
+            </div>
+        </div>
+
+        <footer>
+            <h3>Find me to discuss the movie</h3>
+             
+            <ul>
+                <li> <a href="#">Twitter <i class="fab fa-twitter"></i></a></li>
+                <li> <a href="#">Instagram <i class="fab fa-instagram"></i></a> </li>
+                <li> <a href="#">Facebook <i class="fab fa-facebook"></i></a> </li>
+            </ul>
+    
+            <p>Katrin J &#169; 2025</p>
+    
+        </footer>
+
+<script src="scripts/app.js"></script>   
+</body>
+</html>
