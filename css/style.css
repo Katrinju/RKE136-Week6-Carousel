@@ -128,18 +128,15 @@ footer ul li a {
 }
 
 .modal-content {
-    background-color: rgb(19, 112, 173);
-
+    background-color: rgb(223, 217, 217);
     margin: 5% auto;
     padding: 5rem;
     width: 500px;
     height: 700px;
-
-    animation: zoom-in 1s;
 }
 
 .modal-content > h1 {
-    color: white;
+    color:rgba(62, 55, 55, 0.829);
 }
 
 .closeBtn {
@@ -152,47 +149,10 @@ footer ul li a {
     width: 300px;
 }
 
-.carousel {
-    max-width: 500px;
-    margin: 0 auto;
-    position: relative;
-}
 
-.carousel img {
-    width: 100%;
 
-}
 
-.carousel .carousel__item, 
-.carousel .carousel__item--hidden {
-    display: none;
-}
 
-.carousel .carousel__item--visible {
-    display: block;
-}
 
-.carousel .carousel__actions {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.carousel .carousel__actions button {
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 50px;
-    cursor: bold;
-    height: 50px;
-    width: 50px;
-    border: 0;
-    background-color: rgba(103, 100, 97, 0.739);
-    font-size: 2rem;
-    color: #fff;
-    margin: 0.5rem;
- }
 
 
